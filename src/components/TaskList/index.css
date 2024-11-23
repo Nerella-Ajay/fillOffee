@@ -1,0 +1,53 @@
+.taskWithStatus{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+
+}
+.addedTask{
+    font-family: 'Bree Serif';
+    font-size: 20px;
+    font-weight: 440;
+}
+
+.taskDescription{
+    font-family: 'Bree Serif';
+    font-size: 16px;
+    font-weight: 380;
+}
+
+.statusButtons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.editButton, .saveButton{
+    background-color: rgb(226, 180, 15);
+    font-family: 'Bree Serif';
+    color: #ffffff;
+    padding: 5px;
+    padding-left: 14px;
+    padding-right: 14px;
+    border:1px solid wheat;
+    border-radius: 8px;
+}
+
+.deleteButton, .cancelButton{
+    background-color: rgb(226, 15, 15);
+    font-family: 'Bree Serif';
+    color: #ffffff;
+    padding: 5px;
+    padding-left: 14px;
+    padding-right: 14px;
+    border:1px solid wheat;
+    border-radius: 8px;
+}
+
+.editTaskForm{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+}
